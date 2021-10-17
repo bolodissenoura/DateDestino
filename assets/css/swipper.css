@@ -1,0 +1,54 @@
+.swiper {
+    width: 540px;
+    height: 320px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: rgb(214, 202, 202);
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: rgb(30, 30, 47);
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(214, 202, 202);
+  }
+
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(30, 30, 47);
+  }
+
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(214, 202, 202);
+  }
+
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(30, 30, 47);
+  }
+
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(214, 202, 202);
+  }
+
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(30, 30, 47);
+  }
+
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(214, 202, 202);
+  }
+
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(30, 30, 47);
+  }
