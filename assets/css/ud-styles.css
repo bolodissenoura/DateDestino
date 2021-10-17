@@ -1902,6 +1902,7 @@ p {
   .ud-blog-details-image {
     height: 300px;
   }
+
 }
 
 .ud-blog-details-image > img {
@@ -2572,6 +2573,7 @@ p {
   .ud-404-subtitle {
     font-size: 18px;
   }
+  
 }
 
 .ud-404-links {
