@@ -100,10 +100,9 @@ BEM VINDO AO MUNDO DANIEL :)
        
        <p style="color: #fff;" class="ud-hero-desc">
          1 - Coloque seu nome e o nome do seu par . <br/><br/>
-         2 - Responda 4 perguntas . <br/><br/>
-         3 - Faça seu encontro perfeito que preparamos . <br/><br/>
-         4 - Poste uma foto de vocês curtindo o encontro com a #DateDestino<br/><br/>
-         5 - Divirta-se !!!!<br/><br/>
+         2 - Faça seu encontro perfeito que preparamos . <br/><br/>
+         3 - Caso queira aparecer na sessão de fotos, envie uma foto do casal no insta pro @daniellimae<br/><br/>
+         4 - Divirta-se !!!!<br/><br/>
        </p>
 			
 		</div>
@@ -126,29 +125,29 @@ BEM VINDO AO MUNDO DANIEL :)
               </h1>
               
               
-              <form>
+              <form name="formulario" action="resultado.html" method="get" onsubmit="save_data()">
                 <div class="form-group">
                   <p class="ud-hero-desc">
-                    Qual seu nome ?
+                    Qual seu primeiro nome ?
                   </p>
-                  <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="Nome" placeholder="Fulaninho">
-                  <small id="emailHelp" class="form-text text-muted">Pode ser apelido carinhoso também, sem julgamentos por aqui.</small>
+                  <input required maxlength="10" type="name" class="form-control" id="name" placeholder="Fulaninho">
+                  <small id="name" class="form-text text-muted">Pode ser apelido carinhoso também, sem julgamentos por aqui.</small>
                 </div>
                 <p class="ud-hero-desc">
-                  Qual o nome do seu par ?
+                  Qual o primeiro nome do seu par ?
                 </p>
                 <div class="form-group">
-                  <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="Nome" placeholder="Beltrana ">
-                  <small id="emailHelp" class="form-text text-muted">Cuidado pra não confundir em, rs.</small>
+                  <input required maxlength="10" type="name" class="form-control" id="name2" placeholder="Beltrana ">
+                  <small id="name" class="form-text text-muted">Cuidado pra não confundir em, rs.</small>
                 </div>
-                <p class="ud-hero-desc">
-                  Preferem ficar em casa ou desbravar o mundão ?
-                </p>
-                <select class="form-control form-control-lg">
-                  <option>Ficar em Casa</option>
-                  <option>Dar um role por aí</option>
-                </select>
-                <button type="submit" style="margin-top: 50px;border-radius: 30px;background-color: #EC7A7A;" class="btn btn-secondary btn-lg btn-block">Achar o Date!</button>
+                
+                <button 
+                  type="submit" 
+                  style="margin-top: 50px;border-radius: 30px;background-color: #EC7A7A;" 
+                  onclick=""
+                  class="btn btn-secondary btn-lg btn-block">
+                  Achar o Date!
+                </button>
               </form>
             </div>
 
@@ -225,5 +224,16 @@ BEM VINDO AO MUNDO DANIEL :)
         grabCursor: true,
       });
     </script>
+    <script> 
+      function save_data() {
+        var input = document.getElementById("name");
+        var input2 = document.getElementById("name2");
+        localStorage.setItem("server", input.value); 
+        localStorage.setItem("server2", input2.value)
+        
+      
+        // etc..
+      }
+      </script>
   </body>
 </html>

@@ -43,12 +43,13 @@ BEM VINDO AO MUNDO DANIEL :)
    
 
     <!-- ====== Hero Start ====== -->
-    <section class="ud-hero" id="home">
+    <section class="ud-hero" id="home" style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  #171717 0%, #292929 81.3% );">
       <div class="container">
         <div class="row">
           <div>
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
                 <h1 style="color: #EC7A7A;" class="ud-hero-title">
+                  <span id="nomeCadastrado"></span> e <span id="nomeCadastrado2"></span>, <br/><br/>
                   Seu date está pronto
                  </h1>
                  <p class="ud-hero-desc">
@@ -58,31 +59,27 @@ BEM VINDO AO MUNDO DANIEL :)
                     
                 <ul class="ud-hero-buttons" style="overflow: hidden;" id="buttonsEtapas">
                     <li>
-                      <a href="#form" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                      <a href="#local" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                         Local
                       </a>
                     </li>
                     <li>
-                        <a href="#form" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                        <a href="#roupas" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                           Roupas
                         </a>
                       </li>
                       
                     <li>
-                        <a href="#form" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                        <a href="#comidas" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                           Comes e bebes
                         </a>
                       </li>
                     <li>
-                        <a href="#form" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
+                        <a href="#musicas" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                           Música
                         </a>
                     </li>
-                    <li>
-                        <a href="#form" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
-                          Desafio
-                        </a>
-                    </li>
+             
                   </ul>
                 </div>
               </div>
@@ -105,9 +102,11 @@ BEM VINDO AO MUNDO DANIEL :)
                     <h1 style="color: #EC7A7A;" class="ud-hero-title">
                     Local
                     </h1>
+
                     <p class="ud-hero-desc">
-                    O Date será em um(a) <span style="color: #EC7A7A;">CINEMA</span> <br/><br/><br/>
-                    E quem terá que levar ou providênciar o uber é <span style="color: #EC7A7A;">Daniel</span>
+                    O Date será em um(a) <span style="color: #EC7A7A;" id = "localValor"></span> <br/><br/><br/>
+                    E quem terá que levar ou providênciar o uber é
+                     <span style="color: #EC7A7A;" id="nomeCadastrado"></span>
                     </p>
                     
                     
@@ -131,7 +130,7 @@ BEM VINDO AO MUNDO DANIEL :)
 <!-- ====== Local ====== -->
 
     <!-- ====== Roupas ====== -->
-    <section class="ud-hero" id="home">
+    <section class="ud-hero" id="roupas">
         <div class="container">
             <div class="row">
            
@@ -141,13 +140,10 @@ BEM VINDO AO MUNDO DANIEL :)
                     Roupas
                     </h1>
                     <p class="ud-hero-desc">
-                    Hoje o tema da noite é <span style="color: #EC7A7A;">HAVAIANO</span> <br/><br/>
+                    Hoje o tema da noite é <span style="color: #EC7A7A;" id="roupasValor"></span> <br/><br/>
                     É melhor já ir pesquisando looks no nosso amigo <span style="color: #EC7A7A;">Google</span>
                     </p>
                     
-                    
-                        
-                
                 </div>
                 </div>
                 <div class="col-lg-5 col-xl-5">
@@ -165,7 +161,7 @@ BEM VINDO AO MUNDO DANIEL :)
 <!-- ====== Roupas ====== -->
 
     <!-- ====== comida ====== -->
-    <section class="ud-hero" id="home">
+    <section class="ud-hero" id="comidas">
         <div class="container">
             <div class="row">
             <div class="col-lg-5 col-xl-5">
@@ -177,8 +173,8 @@ BEM VINDO AO MUNDO DANIEL :)
                     Comes e bebes
                     </h1>
                     <p class="ud-hero-desc">
-                    O cardápio da noite é <span style="color: #EC7A7A;">MC Donalds</span> <br/><br/><br/>
-                    E quem terá que pagar é <span style="color: #EC7A7A;">Daniel</span>
+                    O cardápio da noite é <span style="color: #EC7A7A;" id="comidasValor"></span> <br/><br/><br/>
+                    E quem terá que pagar é <span style="color: #EC7A7A;" id="nomeCadastrado2"></span>
                     </p>
                     
                     
@@ -199,7 +195,7 @@ BEM VINDO AO MUNDO DANIEL :)
 <!-- ====== comida ====== -->
 
    <!-- ====== Música ====== -->
-   <section class="ud-hero" id="home">
+   <section class="ud-hero" id="musicas">
     <div class="container">
         <div class="row">
        
@@ -209,9 +205,9 @@ BEM VINDO AO MUNDO DANIEL :)
                 Música
                 </h1>
                 <p class="ud-hero-desc">
-                Hoje a playlist da noite é <span style="color: #EC7A7A;">FUNK</span> <br/><br/>
+                Hoje a playlist da noite é <span style="color: #EC7A7A;" id="musicaValor"></span> <br/><br/>
                
-                <iframe src="https://open.spotify.com/embed/track/0DsPj89zlY3Us7xb5cXK5h" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <!-- <iframe src="https://open.spotify.com/embed/track/0DsPj89zlY3Us7xb5cXK5h" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
                 </p>
                 
                     
@@ -232,37 +228,7 @@ BEM VINDO AO MUNDO DANIEL :)
     </section>
 <!-- ====== Música ====== -->
 
- <!-- ====== Desafio ====== -->
- <section class="ud-hero" id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 col-xl-5">
-                <img style="width: 500px;" src="./assets/images/DateImg/90-Start-Up.png"  />
-                </div>
-        <div class="col-lg-5 col-xl-5">
-            <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
-                <h1 style="color: #EC7A7A;" class="ud-hero-title">
-                Desafio
-                </h1>
-                <p class="ud-hero-desc">
-                Hoje o Desafio da noite é <span style="color: #EC7A7A;">LEI MARIA DA MODA</span> <br/><br/>
-                </p>
-                <p class="ud-hero-desc">
-                    Quem achar a pessoa mais brega durante a noite toda, ganha um beijo.<br/><br/>
-                </p>
-            </div>
-            </div>
-  
-            
-
-            <div class="ud-hero-image wow fadeInUp" data-wow-delay=".25s">
-
-            </div>
-        
-        </div>
-    </div>
-    </section>
-<!-- ====== Desafio ====== -->
+ 
 
 
     
@@ -279,6 +245,7 @@ BEM VINDO AO MUNDO DANIEL :)
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/aleatoriedade.js"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
@@ -333,6 +300,20 @@ BEM VINDO AO MUNDO DANIEL :)
         grabCursor: true,
       });
     </script>
+<script language="JavaScript">
+  function processUser()
+  {
+    var parameters = location.search.substring(1).split("&");
+
+    var temp = parameters[0].split("=");
+    l = unescape(temp[1]);
+    temp = parameters[1].split("=");
+    p = unescape(temp[1]);
+    document.getElementById("log").innerHTML = l;
+    document.getElementById("pass").innerHTML = p;
+  }
+</script>
+
 <style>
     @media (max-width: 600px)
     {
