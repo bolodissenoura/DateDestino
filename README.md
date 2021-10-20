@@ -2,6 +2,7 @@
 
 <p align="center">Se está preocupado com o date perfeito, de o que fazer, o que comer, onde ir : SUAS PREOCUPAÇÕES ACABARAM !!!</p>
 
+![alt text](https://github.com/bolodissenoura/DateDestino/blob/master/assets/images/DateImg/DateLogo.png)
 
 <p align="center">Brincadeiras a parte, Date Destino é uma aplicação web realizada com HTML + CSS + Bootstrap e Javascript, que teve a 
 inteção de me auxiliar tanto no aprendizado dessas ferramentas, quanto no aprendizado de eventos aleatórios e ' Randomicos ' dentro do Javscript .
